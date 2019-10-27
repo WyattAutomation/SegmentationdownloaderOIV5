@@ -5,6 +5,8 @@ from multiprocessing.dummy import Pool as ThreadPool
 
 #READ THE COMMENTS BEFORE RUNNING THIS!!!! THERE IS PREP TO BE DONE
 
+#install all the dependencies for OIv4_toolkit as well as python pandas (pip3 install pandas)
+
 #download the below csv for the training annotations for all of the images with segmentation data
 # https://storage.googleapis.com/openimages/v5/train-annotations-object-segmentation.csv
 #move or copy it into a new folder name "oiv5segmentation" in your home directory along with this script
