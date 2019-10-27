@@ -32,6 +32,8 @@ for ind in u.index:
 	image = u['ImageID'][ind]
 	
 	#change the <user_name_here> below to your username
+	#add a directory called "/BeerJPGs" in the "/oiv5segmentation" directory.  that's where it will download the jpg's to
+	#if you named it something else change that below
 	download_dir = "/home/<user_name_here>/oiv5segmentation/BeerJPGs/"
 
 	#change "train" below to "test" or "validation" if you want the jpg images for those
